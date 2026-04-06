@@ -8,15 +8,19 @@
 
 ```
 docs/
-├── README.md              # 本文件：文档导航总览
-├── 00-overview.md         # 仓库概述：架构、版本演进、术语表
-├── 01-agent-prompts/      # 智能体提示词详解
-├── 02-system-prompts/     # 系统提示词详解
-├── 03-tool-descriptions/  # 工具描述详解
-│   └── bash/              # Bash 工具系列
-├── 04-skills/             # 技能包详解
-├── 05-system-reminders/   # 系统提醒详解
-└── 06-data/               # 内嵌参考数据详解
+├── README.md                # 本文件：文档导航总览
+├── 00-overview.md           # 仓库概述：架构、版本演进、术语表
+├── 01-agent-prompts/        # 智能体提示词详解
+├── 02-system-prompts/       # 系统提示词详解
+├── 03-tool-descriptions/    # 工具描述详解
+│   └── bash/                # Bash 工具系列
+├── 04-skills/               # 技能包详解
+├── 05-system-reminders/     # 系统提醒详解
+├── 06-data/                 # 内嵌参考数据详解
+├── 07-techniques-summary.md # 提示词技巧汇总
+├── 08-design-philosophy.md  # 设计哲学分析
+├── 09-version-evolution.md  # 版本演进分析
+└── 10-reusable-patterns.md  # 可复用模式
 ```
 
 ---
@@ -32,6 +36,10 @@ docs/
 | [04 — 技能包](./04-skills/) | 15 个 | 专项技能的提示词套件 |
 | [05 — 系统提醒](./05-system-reminders/) | 37 个 | 运行时动态注入的上下文提醒 |
 | [06 — 内嵌数据](./06-data/) | 27 个 | SDK 参考、API 文档等静态数据 |
+| [07 — 提示词技巧汇总](./07-techniques-summary.md) | — | 技巧分类体系、频次排行、组合模式 |
+| [08 — 设计哲学分析](./08-design-philosophy.md) | — | 核心设计原则、安全哲学、协作哲学 |
+| [09 — 版本演进分析](./09-version-evolution.md) | — | 46 个版本的演进轨迹与趋势 |
+| [10 — 可复用模式](./10-reusable-patterns.md) | — | 15 个可直接复用的提示词工程模式 |
 
 ---
 
