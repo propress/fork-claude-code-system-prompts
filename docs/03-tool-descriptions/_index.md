@@ -1,6 +1,6 @@
 # 03 — Tool Descriptions 索引
 
-本目录包含 Claude Code 所有 73 个工具描述的中文解读文档。
+本目录包含 Claude Code 所有 73 个工具描述以及 1 个工具参数描述的中文解读文档（共 74 个文档）。
 
 ## 分类总览
 
@@ -60,9 +60,14 @@
 | [webfetch](webfetch.md) | 网页获取 |
 | [websearch](websearch.md) | 网络搜索 |
 
-### 用户交互 (2 files)
+### 用户交互 (3 files)
 | 文件 | 说明 |
 |------|------|
 | [askuserquestion](askuserquestion.md) | 向用户提问 |
 | [askuserquestion-preview-field](askuserquestion-preview-field.md) | 提问预览字段 |
 | [request_teach_access-part-of-teach-mode](request_teach_access-part-of-teach-mode.md) | 请求教学访问 |
+
+### 工具参数描述 (1 file)
+| 文件 | 说明 |
+|------|------|
+| [tool-parameter-computer-action](tool-parameter-computer-action.md) | Computer 工具的 action 参数——定义 Chrome 浏览器自动化工具支持的 13 种操作类型 |

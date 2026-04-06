@@ -32,7 +32,7 @@ docs/
 | [00 — 总体概述](./00-overview.md) | — | 架构图、版本时间线、术语表 |
 | [01 — 智能体提示词](./01-agent-prompts/) | 32 个 | 子智能体与功能模块的指令集 |
 | [02 — 系统提示词](./02-system-prompts/) | 67 个 | Claude Code 核心行为规则片段 |
-| [03 — 工具描述](./03-tool-descriptions/) | 73 个 | 内置工具使用说明与约束 |
+| [03 — 工具描述](./03-tool-descriptions/) | 73 + 1 | 内置工具使用说明与约束（含 1 个工具参数描述） |
 | [04 — 技能包](./04-skills/) | 15 个 | 专项技能的提示词套件 |
 | [05 — 系统提醒](./05-system-reminders/) | 37 个 | 运行时动态注入的上下文提醒 |
 | [06 — 内嵌数据](./06-data/) | 27 个 | SDK 参考、API 文档等静态数据 |
@@ -87,6 +87,7 @@ Claude Code 内置工具的详细描述，指导模型何时以及如何调用�
 | 规划模式 | `tool-description-enterplanmode`, `tool-description-exitplanmode` |
 | 多智能体工具 | `tool-description-agent-*`, `tool-description-sendmessagetool`, `tool-description-teammatetool` |
 | 其他专项工具 | `tool-description-todowrite`, `tool-description-croncreate`, `tool-description-skill` |
+| 工具参数描述 | `tool-parameter-computer-action`（Computer 工具的 action 参数） |
 
 ### 技能包（Skills）`skill-*`
 
